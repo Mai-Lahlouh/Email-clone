@@ -1,0 +1,21 @@
+.emailStyle{
+    height: 50px;
+    padding: 15px;
+    border-bottom: 1px solid #e9e2e2;
+    border-right: 1px solid #e9e2e2;
+}
+.emailHead p{
+    margin: 0;
+}
+.emailBody{
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+    font-size: 14px;
+}
+.date{
+    margin-top: 13px;
+}
+.emailDe > *{
+    text-decoration: none;
+}

@@ -1,0 +1,10 @@
+.emails{
+    position: relative;
+    top: 64px;
+    width: 500px;
+    height: 100vh; 
+    overflow-y: auto;  
+}
+.div{
+    display: flex;
+}

@@ -1,0 +1,22 @@
+.composeBtn{
+    width: 100%;
+    background: rgb(102, 175, 226);
+    border: none;
+    height: 80px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 70px;
+}
+.icon{
+    color: #ffffff !important;
+    font-size: 1.2rem !important;
+}
+.text{
+    font-size: large;
+    color: #ffffff;
+}
+.links > *{
+    text-decoration: none;
+}

@@ -1,0 +1,61 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    background-color: #F5F5F5;
+}
+.icons{
+    font-size: 15px !important;
+    padding: 0;
+    color: #302a2a;
+    border: none;
+}
+.header p{
+    font-weight: 500;
+    font-size: 14px;
+}
+.emailForm{
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    padding: 0 15px;
+}
+.input ::placeholder{
+    font-size: 14px;
+    border-bottom: 1px solid #b9adad;
+    padding-bottom: 7px;
+}
+textarea{
+    border: none;
+    height: 220px;
+    margin: 10px 15px 0;
+}
+textarea:focus{
+    outline: none;
+}
+.sendBtn{
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    background-color: #2020c3;
+    color: #ffffff;
+    font-size: medium;
+    margin-left: 10px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.deleteIcon{
+    color: #5c5b5b;
+    border: none;
+    background-color: inherit;
+}
+.icon{
+    border: none;
+    background: inherit;
+    color: black;
+}
